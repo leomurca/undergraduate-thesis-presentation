@@ -7,11 +7,44 @@
 }
 
 \section{Metodologia}
+
+\subsection{Prototipação}
 \begin{frame}{Metodologia}
-    %Modelo de lista de itens
+	{Prototipação}
+	\begin{figure}
+		\includegraphics[width=6cm]{images/figma-proto.png}
+		\caption{Captura de tela do protótipo do IF Salas feito no FIGMA}
+	\end{figure}
+\end{frame}
+
+\subsection{Codificação e versionamento}
+\begin{frame}{Metodologia}
+	{Codificação e versionamento}
 	\begin{itemize}[<+->]
-		\item Item 1
-		\item Item 2
-		\item Item 3
+		\item Desenvolvimento guiado por \href{https://www.artima.com/articles/tracer-bullets-and-prototypes}{Projéteis Luminosos}
+		\item Arquitetura e organização dos arquivos do código do projeto foi estruturada seguindo as práticas mais difundidas no mercado de desenvolvimento web utilizando o ecossistema React
+		\item Estratégia de versionamento utilizando \href{https://nvie.com/posts/a-successful-git-branching-model/}{Git Flow} adaptado ao contexto do IF Salas
+	\end{itemize}
+\end{frame}
+
+\begin{frame}{Metodologia}
+	{Codificação e versionamento}
+	\begin{figure}
+		\includegraphics[width=9cm]{images/git-flow.png}
+		\caption{Git Flow adaptado}
+	\end{figure}
+\end{frame}
+
+
+\subsection{Implantação e Coleta de Dados}
+\begin{frame}{Metodologia}
+	{Implantação e Coleta de Dados}
+	\begin{itemize}[<+->]
+		\item Implantação automatizada através do \href{https://docs.github.com/en/actions}{GitHub Actions} para os domínios:
+			\begin{itemize}
+				\item \href{https://dev.ifsalas.xyz/}{https://dev.ifsalas.xyz/}
+				\item \href{https://ifsalas.xyz/}{https://ifsalas.xyz/}
+			\end{itemize}
+		\item Coleta de feedbacks foi feita de maneira informal
 	\end{itemize}
 \end{frame}

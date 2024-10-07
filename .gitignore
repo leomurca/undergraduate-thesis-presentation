@@ -301,3 +301,4 @@ TSWLatexianTemp*
 #*Notes.bib
 
 *.pdf
+.DS_STORE
